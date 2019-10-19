@@ -1,0 +1,42 @@
+{
+  "name": "smosh-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "evergreen-ui": "^4.19.3",
+    "konva": "^4.0.13",
+    "react": "^16.10.2",
+    "react-data-table-component": "^3.5.1",
+    "react-dom": "^16.10.2",
+    "react-keyboard-event-handler": "^1.5.1",
+    "react-konva": "^16.10.1-0",
+    "react-particles-js": "^2.7.0",
+    "react-scripts": "3.2.0",
+    "react-spring": "^8.0.27",
+    "react-webcam": "^3.1.1",
+    "rodal": "^1.6.3",
+    "socket.io-client": "^2.3.0",
+    "styled-components": "^4.4.0"
+  },
+  "scripts": {
+    "start": "PORT=3000 HTTPS=true react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
